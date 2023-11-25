@@ -24,4 +24,15 @@
     <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Adminassets\css\styles.css" />
+    <None Include="wwwroot\Adminassets\demo\chart-area-demo.js" />
+    <None Include="wwwroot\Adminassets\demo\chart-bar-demo.js" />
+    <None Include="wwwroot\Adminassets\demo\chart-pie-demo.js" />
+    <None Include="wwwroot\Adminassets\demo\datatables-demo.js" />
+    <None Include="wwwroot\Adminassets\img\error-404-monochrome.svg" />
+    <None Include="wwwroot\Adminassets\js\datatables-simple-demo.js" />
+    <None Include="wwwroot\Adminassets\js\scripts.js" />
+  </ItemGroup>
+
 </Project>

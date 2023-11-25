@@ -10907,11 +10907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\Last_term\\FoodOrder\\FoodOrder.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\.NET_Last_term\\FoodOrder\\FoodOrder.csproj",
       "projectName": "FoodOrder",
-      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\Last_term\\FoodOrder\\FoodOrder.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\.NET_Last_term\\FoodOrder\\FoodOrder.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\Last_term\\FoodOrder\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\.NET_Last_term\\FoodOrder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

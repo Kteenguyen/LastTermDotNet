@@ -1,4 +1,4 @@
-create database FoodOrderDB
+﻿create database FoodOrderDB
 use FoodOrderDB
 CREATE TABLE [Users](
 [UserId] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
@@ -67,7 +67,15 @@ CREATE TABLE [Payment](
 [Address] [varchar] (max) NULL,
 [PaymentMode] [varchar](50) NULL
 )
-
+//Bảng customer chưa push lên model
+CREATE TABLE [Customers] (
+    [CustomerId] INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    [Name] VARCHAR(50) NULL,
+    [Email] VARCHAR(50) NULL,
+    [Subject] VARCHAR(200) NULL,
+    [Message] VARCHAR(MAX) NULL,
+    [CreatedDate] DATETIME NULL
+);
 ALTER TABLE Contact
 ALTER COLUMN Name nvarchar(100);
 
