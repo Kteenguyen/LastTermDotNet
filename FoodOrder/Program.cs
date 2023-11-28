@@ -15,8 +15,8 @@ namespace FoodOrder
 
 			// Add services to the container.
 			//Connection string
-			builder.Services.AddDbContext<FoodOrderDBContext>(options =>
-			options.UseSqlServer(builder.Configuration.GetConnectionString("FoodOrderDB")));
+			//builder.Services.AddDbContext<FoodOrderDBContext>(options =>
+			//options.UseSqlServer(builder.Configuration.GetConnectionString("FoodOrderDB")));
 
 			builder.Services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.All }));
 
@@ -35,19 +35,20 @@ namespace FoodOrder
 			app.UseRouting();
 				
 			app.UseAuthorization();
+			
+
+			
+
 			app.UseEndpoints(endpoints =>
 			{
 				endpoints.MapControllerRoute(
 				name: "areas",
 				pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
 				);
-			});
-
-			app.MapControllerRoute(
+				endpoints.MapControllerRoute(
 				name: "default",
 				pattern: "{controller=Home}/{action=Index}/{id?}");
-
-			
+			});
 			app.Run();
 		}
 	}
