@@ -1,6 +1,9 @@
 //Lệnh nuget cập nhật ánh xạ cơ sở dữ liệu từ SQL Server
 // Dùng -Force cho những lần cập nhật về sau, lần đầu không cần dùng
-Scaffold-DbContext "Server = KTEE\SQLEXPRESS;Database = FoodOrderDB;Integrated Security=true;" Microsoft.EntityFrameWorkCore.SqlServer -OutputDir Models -Force
+Scaffold-DbContext "Server = KTEE\\SQLEXPRESS;Database = FoodOrderDB;Integrated Security=true;" Microsoft.EntityFrameWorkCore.SqlServer -OutputDir Models -Force
+//Work-flow
+-Go to Admin
+- Quản lý hệ thống> Quản lý quyền truy cập> Hoàn thành hết chức năng
 
 ***Lưu ý
 Chỗ chuỗi kết nối ở trong appsetting.js thì \\
@@ -24,3 +27,9 @@ Làm theo hướng show hết sản phẩm ra menu rồi bấm nút để thêm 
 ** T có làm sẵn 1 cái trong file "backup" ở ngoài á, xong tới đâu back up tới đó 
 //Những  cái dư(rảnh thì xử lý)
 model detail
+=======
+Scaffold-DbContext "Server = KTEE\\SQLEXPRESS;Database = FoodOrderDB;Integrated Security=true;" Microsoft.EntityFrameWorkCore.SqlServer -OutputDir Models -Force
+//Work-flow
+-Go to Admin
+- Quản lý hệ thống> Quản lý quyền truy cập> Hoàn thành hết chức năng
+>>>>>>> 6ee05be52f1b41810ba073d0820d38ffdc2f16f8
