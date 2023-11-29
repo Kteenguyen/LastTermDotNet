@@ -33,3 +33,6 @@ Scaffold-DbContext "Server = KTEE\\SQLEXPRESS;Database = FoodOrderDB;Integrated 
 -Go to Admin
 - Quản lý hệ thống> Quản lý quyền truy cập> Hoàn thành hết chức năng
 >>>>>>> 6ee05be52f1b41810ba073d0820d38ffdc2f16f8
+======
+//Code bên Admin: 
+Vào Areas/Admin có mấy cái view, trong share có mấy cái partial view, cú pháp gọi dùng lại để ở trên
