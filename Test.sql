@@ -125,4 +125,15 @@ CREATE TABLE Customers (
     CreatedDate DATETIME NULL
 )
 GO
+-- Tạo bảng "Detail"
+CREATE TABLE Detail (
+    DetailId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    OrderId INT NULL,
+    ProductId INT NULL,
+    Quantity INT NULL,
+    Price DECIMAL(18, 2) NULL,
+    FOREIGN KEY (OrderId) REFERENCES Orders(OrderId),
+    FOREIGN KEY (ProductId) REFERENCES Products(ProductId)
+)
+GO
 

@@ -9,89 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FoodOrder
 build_property.RootNamespace = FoodOrder
-build_property.ProjectDir = C:\Users\ADMIN\OneDrive\Documents\Study\Report\.NET\FoodOrder\
+build_property.ProjectDir = C:\Users\ADMIN\OneDrive\Documents\Study\Report\.NET\LastTermDotNet\FoodOrder\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\ADMIN\OneDrive\Documents\Study\Report\.NET\FoodOrder
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\OneDrive\Documents\Study\Report\.NET\LastTermDotNet\FoodOrder
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/AdminRoles/Create.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/AdminRoles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/AdminRoles/Delete.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/AdminRoles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/AdminRoles/Details.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/AdminRoles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/AdminRoles/Edit.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/AdminRoles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/AdminRoles/Index.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/AdminRoles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/Shared/Error.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/Shared/_SideNavNavPartialView.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/Shared/_SideNavNavPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaWRlTmF2TmF2UGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/Shared/_SideNavPartialView.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/Shared/_SideNavPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaWRlTmF2UGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Views/Home/Index.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Views/Home/Privacy.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Views/Shared/Error.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Shared/_FooterPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Shared/_HeaderPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Shared/_MenuPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51UGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Shared/_SectionHeaderPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWN0aW9uSGVhZGVyUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Views/_ViewImports.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Views/_ViewStart.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-gp58jvoqki
 
-[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/FoodOrder/Views/Shared/_Layout.cshtml]
+[C:/Users/ADMIN/OneDrive/Documents/Study/Report/.NET/LastTermDotNet/FoodOrder/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ub354rv2gh

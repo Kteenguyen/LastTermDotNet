@@ -20,6 +20,7 @@ namespace FoodOrder.Models
         public virtual DbSet<Category> Categories { get; set; } = null!;
         public virtual DbSet<Contact> Contacts { get; set; } = null!;
         public virtual DbSet<Customer> Customers { get; set; } = null!;
+        public virtual DbSet<Detail> Details { get; set; } = null!;
         public virtual DbSet<Order> Orders { get; set; } = null!;
         public virtual DbSet<OrderDetail> OrderDetails { get; set; } = null!;
         public virtual DbSet<Payment> Payments { get; set; } = null!;
@@ -32,7 +33,7 @@ namespace FoodOrder.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=KTEE\\SQLEXPRESS;Database=FoodOrderDB;Integrated Security=true;");
+                optionsBuilder.UseSqlServer("Server = KTEE\\SQLEXPRESS;Database = FoodOrderDB;Integrated Security=true;");
             }
         }
 
@@ -80,6 +81,23 @@ namespace FoodOrder.Models
                 entity.Property(e => e.Name).HasMaxLength(100);
 
                 entity.Property(e => e.Subject).HasMaxLength(200);
+            });
+
+            modelBuilder.Entity<Detail>(entity =>
+            {
+                entity.ToTable("Detail");
+
+                entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
+
+                entity.HasOne(d => d.Order)
+                    .WithMany(p => p.Details)
+                    .HasForeignKey(d => d.OrderId)
+                    .HasConstraintName("FK__Detail__OrderId__49C3F6B7");
+
+                entity.HasOne(d => d.Product)
+                    .WithMany(p => p.Details)
+                    .HasForeignKey(d => d.ProductId)
+                    .HasConstraintName("FK__Detail__ProductI__4AB81AF0");
             });
 
             modelBuilder.Entity<Order>(entity =>

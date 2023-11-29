@@ -7,6 +7,7 @@ namespace FoodOrder.Models
     {
         public Order()
         {
+            Details = new HashSet<Detail>();
             OrderDetails = new HashSet<OrderDetail>();
         }
 
@@ -22,6 +23,7 @@ namespace FoodOrder.Models
         public virtual Payment? Payment { get; set; }
         public virtual Product? Product { get; set; }
         public virtual User? User { get; set; }
+        public virtual ICollection<Detail> Details { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

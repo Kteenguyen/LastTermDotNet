@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\FoodOrder\\FoodOrder.csproj": {}
+    "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\LastTermDotNet\\FoodOrder\\FoodOrder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\FoodOrder\\FoodOrder.csproj": {
+    "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\LastTermDotNet\\FoodOrder\\FoodOrder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\FoodOrder\\FoodOrder.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\LastTermDotNet\\FoodOrder\\FoodOrder.csproj",
         "projectName": "FoodOrder",
-        "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\FoodOrder\\FoodOrder.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\LastTermDotNet\\FoodOrder\\FoodOrder.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\FoodOrder\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\Study\\Report\\.NET\\LastTermDotNet\\FoodOrder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

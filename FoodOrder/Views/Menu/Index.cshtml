@@ -1,0 +1,28 @@
+﻿@model IEnumerable<FoodOrder.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="hero_area">
+    <div class="bg-box">
+        <img src="~/images/hero-bg.jpg" alt="">
+
+    </div>
+    @await Html.PartialAsync("_HeaderPartialView")
+</div>
+
+
+@await Html.PartialAsync("_MenuPartialView")
+
+<script>
+    var elements = document.getElementsByClassName("menu");
+
+    for (var i = 0; i < elements.length; i++) {
+        if (elements[i].classList) {
+            elements[i].classList.add("active");
+        } else {
+            elements[i].className += " active";
+        }
+    }
+</script>
