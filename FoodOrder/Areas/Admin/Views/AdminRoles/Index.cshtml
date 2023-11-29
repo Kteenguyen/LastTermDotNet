@@ -1,0 +1,48 @@
+﻿@model IEnumerable<FoodOrder.Models.Role>
+
+@{
+    ViewData["Title"] = "Quản lý quyền truy cập";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    table {
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+</style>
+<div class="card-body">
+    <table id="datatablesSimple">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Mô tả</th>
+                <th>Lựa chọn</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.RoleId</td>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>
+                            <a class="btn btn-outline-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Details" asp-route-id="@item.RoleId">View</a> 
+                            <a class="btn btn-outline-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Edit" asp-route-id="@item.RoleId">Edit</a> 
+                            <a class="btn btn-outline-danger btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Delete" asp-route-id="@item.RoleId">Delete</a> 
+                            <a class="btn btn-outline-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Create" asp-route-id="@item.RoleId">Create</a>
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                }
+                
+            }
+        
+        </tbody>
+    </table>
+</div>

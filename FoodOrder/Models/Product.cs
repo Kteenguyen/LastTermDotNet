@@ -8,6 +8,7 @@ namespace FoodOrder.Models
         public Product()
         {
             Carts = new HashSet<Cart>();
+            OrderDetails = new HashSet<OrderDetail>();
             Orders = new HashSet<Order>();
         }
 
@@ -23,6 +24,7 @@ namespace FoodOrder.Models
 
         public virtual Category? Category { get; set; }
         public virtual ICollection<Cart> Carts { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
     }
 }

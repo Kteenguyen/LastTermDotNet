@@ -5,7 +5,12 @@ namespace FoodOrder.Models
 {
     public partial class Order
     {
-        public int OrderDetailsId { get; set; }
+        public Order()
+        {
+            OrderDetails = new HashSet<OrderDetail>();
+        }
+
+        public int OrderId { get; set; }
         public string? OrderNo { get; set; }
         public int? ProductId { get; set; }
         public int? Quantity { get; set; }
@@ -17,5 +22,6 @@ namespace FoodOrder.Models
         public virtual Payment? Payment { get; set; }
         public virtual Product? Product { get; set; }
         public virtual User? User { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }
